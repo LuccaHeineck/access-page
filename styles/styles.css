@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root
+{
+    --main-font: 'Montserrat', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #FCFBF4;
+}
+
+.container
+{
+    font-family: var(--main-font);
+    font-weight: 400;
+    margin: 50px 400px 0px 400px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container__signup
+{
+    background-image: url("../images/art.jpg");
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-direction: column;
+    padding: 11% 5% 11%;
+    width: 80%;
+    gap: 30px;
+}
+
+.container__signup__title
+{
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+.container__signup__subtitle
+{
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.container__signup__button
+{
+    margin-top: 180px;
+    color: #FCFBF4;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #ede2dc;
+    width: 60%;
+    text-align: center;
+    border-radius: 100px;
+    padding: 18px 0;
+    border: 2px solid #FCFBF4;
+    text-decoration: none;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.container__signup__button:hover
+{
+    background-color: #fe9cdd;
+    transform: scale(1.1);
+}
+.container__signin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 19% 5% 19%;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+}
+
+.container__signin__title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container__signin__social
+{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100%;
+    height: 120px; */
+    gap: 10px;
+}
+
+.container__signin__social__link
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    height: 50px;
+    width: 50px;
+    transition: transform 0.5s;
+}
+
+.container__signin__social__link:hover
+{
+    background-color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.container__signin__social__link__img
+{
+    width: 25px;
+    height: auto;
+}
+
+.container__signin__inputs
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+}
+
+.container__signin__forgot
+{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.container__signin__button
+{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #ede2dc;
+    width: 60%;
+    text-align: center;
+    border-radius: 100px;
+    padding: 18px 0;
+    border: 2px solid black;
+    text-decoration: none;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.container__signin__button:hover 
+{
+    background-color: #66805b;
+    transform: scale(1.1);
+}
+
+
+input
+{
+    background-color: #eee;
+	border-radius: 4px;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 80%;
+}
